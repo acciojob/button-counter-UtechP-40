@@ -4,7 +4,7 @@ import './../styles/App.css';
 
 const App = () => {
   const [value,setValue] = useState(0)
-function increment(){
+function handleClick(){
 setValue(value+1)
 }
   return (
